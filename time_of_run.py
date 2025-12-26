@@ -35,4 +35,4 @@ for nazev, d2 in trate.items():
     col_a.metric(nazev, formatuj_cas(predikce_sekundy))
     col_b.write(f"Tempo: {formatuj_cas(tempo_sekundy)} / km")
 
-st.info("Tip: Tento výpočet předpokládá, že máte na danou vzdálenost natrénováno.")
+st.info("TIP: Tento výpočet předpokládá, že máte na danou vzdálenost natrénováno.")
